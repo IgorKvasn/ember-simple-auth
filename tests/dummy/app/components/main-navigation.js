@@ -8,6 +8,7 @@ export default Component.extend({
 
   actions: {
     login() {
+      // eslint-disable-next-line ember/closure-actions
       this.sendAction('onLogin');
     },
 
